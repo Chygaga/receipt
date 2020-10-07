@@ -5,7 +5,7 @@ def vat_calc(price):
     if price<5000:
         vat_amount=price*0
     else:
-        vat_amount=price*0.05
+        vat_amount=price* 0.05
     return vat_amount
         #totalprice = vat_amount+price
 
